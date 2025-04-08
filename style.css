@@ -1,6 +1,4 @@
 * {
-    /* background-image: url('background_pictures.gif'); */
-    /* background-color: black; */
     margin: 0;
     padding: 0;
     text-align: center;
@@ -72,4 +70,28 @@ img {
     display: inline;
     padding: 1rem;
     border-radius: 1rem;
+}
+
+#msg2:hover {
+    background-color: #0b2a4d;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+#msg2 {
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+
+.icon-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    cursor: pointer;
 }
