@@ -55,3 +55,17 @@ choices.forEach((choice) => {
         playGame(userChoice);
     });
 });
+const audio = document.getElementById("myAudio");
+
+function playAudio() {
+    audio.play();
+}
+
+function pauseAudio() {
+    audio.pause();
+}
+
+audio.addEventListener("ended", function() {
+    audio.currentTime = 0;
+    audio.play();
+});
